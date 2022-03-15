@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Previous HUSKY_GIT_PARAMS environment variable is replaced by native params $1, $2, etc.
+node scripts/verify-commit-msg.js --name=$1

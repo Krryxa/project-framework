@@ -1,0 +1,8 @@
+{
+  "*.{js,jsx,vue,ts,tsx}": [
+    "yarn lint"
+  ],
+  "*.{vue,css,scss}": [
+    "stylelint --fix"
+  ]
+}

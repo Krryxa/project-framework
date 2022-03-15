@@ -3,7 +3,7 @@ import { ref } from 'vue'
 import { useRoute } from 'vue-router'
 import { useBlogStore } from '@/store/blog'
 import { getBlogById } from '@/service/api'
-defineProps()
+defineProps([])
 
 const blogStore = useBlogStore()
 
@@ -13,7 +13,7 @@ const blog = ref({})
 
 const getBlog = async () => {
   const id = route.params.id
-  const res = await getBlogById(id)
+  const res = await getBlogById(Number(id))
   blog.value = res.result
 }
 
@@ -27,4 +27,8 @@ getBlog()
   <div>{{ blog }}</div>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+div {
+  font-size: 12px;
+}
+</style>
