@@ -7,6 +7,11 @@
 ## Technology Stack
 Vite + Vue3.2 + Egg + Typescript
 
+client：vue-router + axios + pinia<br>
+server：egg-validate + egg-apigw-tracer
+
+eslint + stylelint + commit 格式校验
+
 ## Development
 
 ```bash
@@ -14,6 +19,8 @@ $ yarn install:all
 $ cd client && yarn dev
 $ cd server && yarn dev
 ```
+eg.<br>
+http://localhost:3000/<br>http://localhost:3000/detail/1
 
 ## Deploy
 
@@ -22,11 +29,12 @@ $ cd server && yarn dev
 部署 XXX 环境 ```EGG_SERVER_ENV=XXX yarn start```
 
 ## Feature
-* [x] 目录结构统一化 server/client
+* [x] 目录结构统一化 client / server
+* [x] client 提供 axios http 库、pinia 全局状态管理
+* [x] server 约定 RESTful API 和路由风格，提供唯一请求 requestId
 * [x] 部署脚本统一化
 * [x] 服务端日志统一化
-* [x] 添加 precommit hook 校验 ESlint
-* [x] 添加 precommit hook 校验 Commit 格式
+* [x] 提供 precommit hook 校验 ESlint / Stylelint / Commit
 * [x] 支持请求的直接代理转发
 
 ## Contribution
