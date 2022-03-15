@@ -1,0 +1,12 @@
+{
+  "name": "project-framework",
+  "version": "1.0.0",
+  "description": "project-framework",
+  "scripts": {
+    "install:client": "cd client && yarn",
+    "install:server": "cd server && yarn",
+    "install:all": "yarn install:client && yarn install:server"
+  },
+  "license": "MIT",
+  "author": "Krry"
+}
