@@ -22,8 +22,8 @@ getBlog()
 
 <template>
   <div>detail page：{{ route.params.id }}</div>
-  <div>state：{{ blogStore.list }}</div>
-  <div>getters：{{ blogStore.getName }}</div>
+  <div>Pinia getters：{{ blogStore.getName }}</div>
+  <div>Pinia state：{{ blogStore.list }}</div>
   <div>{{ blog }}</div>
 </template>
 
