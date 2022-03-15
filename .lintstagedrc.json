@@ -1,8 +1,8 @@
 {
-  "*.{js,jsx,vue,ts,tsx}": [
+  "client/**/*.{js,jsx,vue,ts,tsx}": [
     "yarn lint"
   ],
-  "*.{vue,css,scss}": [
+  "client/**/*.{vue,css,scss}": [
     "stylelint --fix"
   ]
 }

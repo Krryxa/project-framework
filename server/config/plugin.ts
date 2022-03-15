@@ -17,6 +17,12 @@ const plugin: EggPlugin = {
   tracer: {
     enable: true,
     package: 'egg-apigw-tracer'
+  },
+
+  // View 模板渲染
+  nunjucks: {
+    enable: true,
+    package: 'egg-view-nunjucks'
   }
 }
 

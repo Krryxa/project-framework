@@ -15,6 +15,13 @@ export default (appInfo: EggAppInfo) => {
     sourceUrl: `https://github.com/eggjs/examples/tree/master/${appInfo.name}`
   }
 
+  config.view = {
+    defaultViewEngine: 'nunjucks',
+    mapping: {
+      '.html': 'nunjucks'
+    }
+  }
+
   // the return config will combines to EggAppConfig
   return {
     ...config,

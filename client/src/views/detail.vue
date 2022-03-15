@@ -29,6 +29,6 @@ getBlog()
 
 <style lang="scss" scoped>
 // div {
-//   font-size: 12px;
+//   font-size: 14px;
 // }
 </style>
