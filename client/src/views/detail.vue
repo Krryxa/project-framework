@@ -28,7 +28,7 @@ getBlog()
 </template>
 
 <style lang="scss" scoped>
-div {
-  font-size: 12px;
-}
+// div {
+//   font-size: 12px;
+// }
 </style>
