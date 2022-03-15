@@ -9,6 +9,7 @@ export default class BlogService extends Service {
    * @param blog - blog info
    */
   async getBlogById(id) {
+    console.log(id)
     // mysql 查询
     // const result = await this.app.mysql.select('blogs', {
     //   where: { id }
@@ -23,12 +24,13 @@ export default class BlogService extends Service {
    * @param blog - blog info
    */
   async getBlog(params) {
+    console.log(params)
     // mysql 分页查询
     // const result = await this.app.mysql.select('blogs', {
     //   limit: +params.pageSize, // 返回数据量
     //   offset: (+params.pageIndex - 1) * params.pageSize // 数据偏移量
     // })
-    const result = [{ title: '测试数据' }]
+    const result = [{ title: '测试数据1' }, { title: '测试数据2' }]
 
     return { result }
   }

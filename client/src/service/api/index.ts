@@ -5,5 +5,13 @@ import Ax from '../axios'
  * @param {*} reqData
  */
 export function getBlog(reqData: any) {
-  return Ax.get('/blog/getBlog', { params: reqData })
+  return Ax.get('/blog', { params: reqData })
+}
+
+/**
+ * 获取博客详情
+ * @param {*} reqData
+ */
+export function getBlogById(id: number) {
+  return Ax.get(`/blog/${id}`)
 }

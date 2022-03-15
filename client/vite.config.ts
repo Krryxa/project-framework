@@ -9,5 +9,14 @@ export default defineConfig({
     alias: {
       '@': resolve(__dirname, 'src')
     }
+  },
+  server: {
+    open: true,
+    proxy: {
+      '/blog': {
+        target: 'http://127.0.0.1:7001',
+        changeOrigin: true
+      }
+    }
   }
 })

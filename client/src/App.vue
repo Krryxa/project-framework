@@ -10,9 +10,9 @@
 </template>
 
 <style>
-html,
-body {
-  padding: 0;
-  margin: 0;
+#app {
+  margin-top: 50px;
+  text-align: center;
+  line-height: 32px;
 }
 </style>
