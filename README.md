@@ -7,10 +7,10 @@
 ## Technology Stack
 Vite + Vue3.2 + Egg + Typescript
 
+eslint + stylelint + commit 格式校验
+
 ```client```: vue-router + axios + pinia<br>
 ```server```: egg-validate + egg-apigw-tracer
-
-eslint + stylelint + commit 格式校验
 
 ## Development
 
