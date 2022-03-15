@@ -7,7 +7,7 @@
 ## Technology Stack
 Vite + Vue3.2 + Egg + Typescript
 
-### Development
+## Development
 
 ```bash
 $ yarn install:all
@@ -15,13 +15,13 @@ $ cd client && yarn dev
 $ cd server && yarn dev
 ```
 
-### Deploy
+## Deploy
 
 执行 ```build.sh``` 构建
 
 部署 XXX 环境 ```EGG_SERVER_ENV=XXX yarn start```
 
-### Feature
+## Feature
 * [x] 目录结构统一化 server/client
 * [x] 部署脚本统一化
 * [x] 服务端日志统一化
@@ -29,5 +29,5 @@ $ cd server && yarn dev
 * [x] 添加 precommit hook 校验 Commit 格式
 * [x] 支持请求的直接代理转发
 
-### Contribution
+## Contribution
 欢迎大家共同推进最佳实践模板的易用性，可以同过 ISSUE/PR 的形式讨论。
