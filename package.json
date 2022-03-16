@@ -1,7 +1,7 @@
 {
-  "name": "krry-project-framework",
+  "name": "project-framework",
   "version": "1.0.0",
-  "description": "krry-project-framework",
+  "description": "project-framework",
   "scripts": {
     "install:client": "cd client && yarn",
     "install:server": "cd server && yarn",
