@@ -14,7 +14,7 @@
 - **client**：```vue-router``` + ```axios``` + ```pinia```
 - **server**: ```egg-validate``` + ```egg-apigw-tracer```
 
-eslint + stylelint + commit 格式校验
+加入了 ```eslint``` + ```stylelint``` + ```commit 格式校验```
 
 ## Development
 
