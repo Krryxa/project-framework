@@ -6,15 +6,15 @@
 
 ## Technology Stack
 
-```client``` 客户端、```server``` 服务端采用技术架构：
-- **client**：```Vite``` + ```Vue3.2``` + ```Typescript```
-- **server**：```Egg``` + ```Typescript```
+`client` 客户端、`server` 服务端采用技术架构：
+- **client**：`Vite` + `Vue3.2` + `Typescript`
+- **server**：`Egg` + `Typescript`
 
 对于常用功能，框架也引入了如下依赖，并有应用示例：
-- **client**：```vue-router``` + ```axios``` + ```pinia```
-- **server**: ```egg-validate``` + ```egg-apigw-tracer```
+- **client**：`vue-router` + `axios` + `pinia`
+- **server**: `egg-validate` + `egg-apigw-tracer`
 
-加入了 ```eslint``` + ```stylelint``` + ```commit 格式校验```
+加入了 `eslint` + `stylelint` + `commit 格式校验`
 
 ## Development
 
@@ -28,9 +28,9 @@ http://localhost:3000/<br>http://localhost:3000/detail/1
 
 ## Deploy
 
-执行 ```build.sh``` 构建
+执行 `build.sh` 构建
 
-部署 XXX 环境 ```EGG_SERVER_ENV=XXX yarn start```
+部署 XXX 环境 `EGG_SERVER_ENV=XXX yarn start`
 
 ## Feature
 * [x] 目录结构统一化，客户端 client / 服务端 server
@@ -43,4 +43,4 @@ http://localhost:3000/<br>http://localhost:3000/detail/1
 * [x] 支持请求直接代理转发
 
 ## Contribution
-欢迎大家共同推进最佳实践模板的易用性，可以通过 ```ISSUE``` / ```PR``` 的形式讨论。
+欢迎大家共同推进最佳实践模板的易用性，可以通过 `ISSUE` / `PR` 的形式讨论。
