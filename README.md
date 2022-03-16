@@ -30,12 +30,12 @@ http://localhost:3000/<br>http://localhost:3000/detail/1
 
 ## Feature
 * [x] 目录结构统一化 client / server
-* [x] client 提供 axios http 库、pinia 全局状态管理
+* [x] client 提供 router、axios http 库、pinia 全局状态管理
 * [x] server 约定 RESTful API 和路由风格，提供唯一请求 requestId
 * [x] 部署脚本 build.sh 自动化
 * [x] 服务端日志统一化
 * [x] 提供 precommit hook 校验 ESlint / Stylelint / Commit
-* [x] 支持请求的直接代理转发
+* [x] 支持请求直接代理转发
 
 ## Contribution
 欢迎大家共同推进最佳实践模板的易用性，可以同过 ISSUE/PR 的形式讨论。
