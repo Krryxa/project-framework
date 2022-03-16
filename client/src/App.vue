@@ -11,8 +11,8 @@
 
 <style>
 #app {
-  margin-top: 50px;
-  text-align: center;
+  margin-top: 100px;
   line-height: 32px;
+  text-align: center;
 }
 </style>
