@@ -25,6 +25,7 @@ getBlog()
   <div>Pinia getters：{{ blogStore.getName }}</div>
   <div>Pinia state：{{ blogStore.list }}</div>
   <div>{{ blog }}</div>
+  <router-link to="/">返回首页</router-link>
 </template>
 
 <style lang="scss" scoped>

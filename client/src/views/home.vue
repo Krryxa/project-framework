@@ -14,7 +14,8 @@ getBlogList()
 
 <template>
   <hello-world />
-  {{ blogList }}
+  <div>{{ blogList }}</div>
+  <router-link to="/detail/1">进入详情页</router-link>
 </template>
 
 <style lang="scss" scoped></style>
