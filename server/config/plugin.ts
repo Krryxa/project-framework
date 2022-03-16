@@ -2,10 +2,6 @@ import { EggPlugin } from 'egg'
 
 const plugin: EggPlugin = {
   // static: true,
-  // nunjucks: {
-  //   enable: true,
-  //   package: 'egg-view-nunjucks',
-  // },
 
   // 参数校验，需要加上这个插件
   validate: {
@@ -19,7 +15,7 @@ const plugin: EggPlugin = {
     package: 'egg-apigw-tracer'
   },
 
-  // View 模板渲染
+  // view 模板渲染
   nunjucks: {
     enable: true,
     package: 'egg-view-nunjucks'
