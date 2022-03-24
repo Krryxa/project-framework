@@ -3,7 +3,7 @@ import { EggPlugin } from 'egg'
 const plugin: EggPlugin = {
   // static: true,
 
-  // 参数校验，需要加上这个插件
+  // 参数校验
   validate: {
     enable: true,
     package: 'egg-validate'

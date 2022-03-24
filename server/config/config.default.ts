@@ -12,13 +12,13 @@ export default (appInfo: EggAppInfo) => {
 
   // add your special config in here
   const bizConfig = {
-    sourceUrl: `https://github.com/eggjs/examples/tree/master/${appInfo.name}`
-  }
+    sourceUrl: `https://github.com/eggjs/examples/tree/master/${appInfo.name}`,
 
-  config.view = {
-    defaultViewEngine: 'nunjucks',
-    mapping: {
-      '.html': 'nunjucks'
+    view: {
+      defaultViewEngine: 'nunjucks',
+      mapping: {
+        '.html': 'nunjucks'
+      }
     }
   }
 
