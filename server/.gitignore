@@ -11,8 +11,8 @@ logs/
 *.lock
 *.js
 !.autod.conf.js
-public/
-view/
+app/public/
+app/view/
 
 app/**/*.js
 test/**/*.js
